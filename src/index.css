@@ -5,6 +5,8 @@ body {
   padding: 0;
   background-color: #F06426;
   font-family: Lato;
+  width: 100vw;
+  height: 100vh;
 }
 
 #navbar {
@@ -48,10 +50,11 @@ body {
 #main {
   background-image: url("../linus.jpg");
   background-size: 100vw;
-  width: 100vw;
+  width: 100%;
   height: 600px;
   margin: 0;
   text-align: center;
+  box-shadow: inset 0 0 200px black;
 }
 
 #title {
@@ -84,4 +87,13 @@ body {
 
 #messageTitle {
   padding-top: 40px;
+}
+
+#linkContainer img {
+  padding: 20px;
+  height: 250px;
+}
+
+#linkContainer img:hover {
+  background-color: grey;
 }
