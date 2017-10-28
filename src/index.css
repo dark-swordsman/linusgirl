@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F06426;
+  font-family: Lato;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar li {
+  display: inline;
+  float: left;
+}
+
+#navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 24px;
+  text-decoration: none;
+}
+
+#titleName a {
+  display: inline;
+  color: white;
+}
+
+#navbar a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+#titleName {
+  float: right;
+  margin-right: 5vw;
+  color: white;
+  padding-top: 3px;
+}
+
+#main {
+  background-image: url("../linus.jpg");
+  background-size: 100vw;
+  width: 100vw;
+  height: 600px;
+  margin: 0;
+  text-align: center;
+}
+
+#title {
+  color: white;
+  text-shadow: 10px 10px 15px #000;
+  font-size: 100pt;
+  margin: 0;
+  padding-top: 100px;
+}
+
+#subtitle {
+  color: white;
+  text-shadow: 10px 10px 15px #000;
+  margin: 0;
+}
+
+#content {
+  background-color: white;
+  margin: 0;
+  margin-top: -22px;
+  padding: 0;
+  width: 100vw; 
+  min-height: 400px;
+}
+
+#contentInside {
+  width: 70vw;
+  margin-left: 15vw;
+}
+
+#messageTitle {
+  padding-top: 40px;
+}
